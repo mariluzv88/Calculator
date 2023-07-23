@@ -22,10 +22,10 @@ const calculateTerms = (x,y,sign) =>{
     }else if(sign === "x"){
         screen.innerHTML = parseInt(x) * parseInt(y);
 
-    }else if(sign === "%"){
+    }else if(sign === "+"){
             screen.innerHTML = parseInt(x) + parseInt(y);
 
-   }else if(sign === "/"){
+   }else if(sign === "%"){
          screen.innerHTML = parseInt(x) / parseInt(y);
    }else{
     alert("error something is wrong")
